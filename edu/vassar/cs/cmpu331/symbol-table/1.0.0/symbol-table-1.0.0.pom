@@ -33,4 +33,13 @@
             </plugin>
         </plugins>
     </reporting>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub as a Maven Repository</name>
+            <url>https://github.com/blondiebytes/mvn-repo/raw/master</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+    </repositories>
 </project>
